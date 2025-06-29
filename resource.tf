@@ -12,6 +12,10 @@ resource "azure_resource_group" "rg2" {
 }
 
 
+resource "azure_resource_group" "rg3" {
+  name     = "myResourceGroup22"
+  location = "East US"
+}
 
 resource "azure_storage_account" "storage" {
   name                     = "mystorageaccount"
